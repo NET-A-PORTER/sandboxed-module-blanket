@@ -1,0 +1,34 @@
+{
+  "name": "sandboxed-module-blanket",
+  "version": "0.0.1",
+  "author": "Lovell Fuller <lovell.fuller@net-a-porter.com",
+  "description": "Node.js module to support blanket.js code coverage when injecting dependencies via sandboxed-module",
+  "scripts": {
+    "test": "node test/integration"
+  },
+  "main": "./lib/sandboxed-module-blanket.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NET-A-PORTER/sandboxed-module-blanket.git"
+  },
+  "keywords": [
+    "require",
+    "mocking",
+    "dependency injection",
+    "testing",
+    "code coverage",
+    "blanket",
+    "blanketjs"
+  ],
+  "dependencies": {
+    "blanket": "~1.1",
+    "deferred": "~0.6"
+  },
+  "devDependencies": {
+    "sandboxed-module": "~0.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
