@@ -1,4 +1,4 @@
-= sandboxed-module-blanket
+# sandboxed-module-blanket
 
 Provides a [sandboxed-module](https://github.com/felixge/node-sandboxed-module) compatible source transformer to add [blanket.js](https://github.com/alex-seville/blanket) code coverage instrumentation.
 
@@ -6,16 +6,17 @@ The typical use case is to provide code coverage metrics when unit testing a mod
 
 Although sandboxed-module is the mocking library of choice, the _promise_ glue provided by sandboxed-module-blanket could be used with any library that requires synchronous source code modification.
 
-== Install
+## Install
 
 	npm install sandboxed-module-blanket
 
-== Usage
+## Usage
 
 ```javascript
 require('blanket')({
   pattern: 'module-under-test'
 });
+
 var SandboxedModule = require('sandboxed-module');
 var SandboxedModuleBlanket = require('sandboxed-module-blanket');
 
@@ -27,11 +28,11 @@ var moduleUnderTest = SandboxedModule.require('module-under-test', {
 });
 ```
 
-== Testing
+## Testing
 
 	npm test
 
-== Licence
+## Licence
 
 Copyright (c) 2014 Net-A-Porter
 
