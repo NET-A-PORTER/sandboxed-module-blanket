@@ -28,13 +28,13 @@ var moduleUnderTest = SandboxedModule.require('module-under-test', {
 });
 ```
 
-## Testing
+## Testing [![Build Status](https://secure.travis-ci.org/NET-A-PORTER/sandboxed-module-blanket.png?branch=master)](https://travis-ci.org/NET-A-PORTER/sandboxed-module-blanket?branch=master)
 
 	npm test
 
 ## Licence
 
-Copyright (c) 2014 Net-A-Porter
+Copyright 2014 THE NET-A-PORTER GROUP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
